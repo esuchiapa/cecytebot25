@@ -1,0 +1,14 @@
+# Entornos virtuales
+venv/
+mi_entorno/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Archivos de entorno (si los tienes)
+.env
+.env.local
+
+# Carpetas de datos locales (opcional)
+data/
