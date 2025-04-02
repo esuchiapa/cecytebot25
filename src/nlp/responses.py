@@ -15,7 +15,7 @@ def generate_response(user_input):
         "broma" in user_input
     ):
         return """
-        Si te hacen sentir mal, te insultan, te excluyen o te lastiman y lo hacen varias veces, eso es acoso. No importa si dicen que es "broma", lo que importa es cómo te sientes tú.
+        Si te hacen sentir mal, te insultan, te excluyen o te lastiman y lo hacen varias veces, eso es acoso. No importa si dicen que es "broma", lo que importa es cómo te sientes tú. 🫵
         """
     #Pregunta 2
     elif "bullying" in user_input and(
@@ -49,7 +49,7 @@ def generate_response(user_input):
         "problemas" in user_input
     ):
         return """
-        No tienes que enfrentarte al agresor directamente, pero puedes apoyar a la víctima o contarle a un maestro. A veces, solo hacerle saber a esa persona que no está sola ya es una gran ayuda.
+        No tienes que enfrentarte al agresor directamente, pero puedes apoyar a la víctima o contarle a un maestro. A veces, solo hacerle saber a esa persona que no está sola ya es una gran ayuda. 🫂✨
         """
     
     #Pregunta 6
@@ -58,7 +58,7 @@ def generate_response(user_input):
         "mucho" in user_input
     ):
         return """
-        No es fácil, pero recuerda que lo que dicen de ti no define quién eres 😉. Rodéate de personas que te apoyen y haz actividades que te gusten para fortalecer tu autoestima, como paracticr algún deporte o hacer alguna actividad recreativa.
+        No es fácil, pero recuerda que lo que dicen de ti no define quién eres 😉. Rodéate de personas que te apoyen y haz actividades que te gusten para fortalecer tu autoestima, como paracticr algún deporte o hacer alguna actividad recreativa. 🏋️
         """
     
     #Pregunta 7
@@ -66,7 +66,7 @@ def generate_response(user_input):
         "maestro" in user_input
     ):
         return """
-        Si un maestro te humilla, te ignora o te trata de forma injusta, cuéntaselo a otro adulto de confianza, como el director de la escuela o tus papás. Tienes derecho a ser tratado con respeto.      
+        Si un maestro te humilla, te ignora o te trata de forma injusta, cuéntaselo a otro adulto de confianza, como el director de la escuela o tus papás. Tienes derecho a ser tratado con respeto. 🫡     
         """
 
     #Pregunta 8
@@ -102,7 +102,7 @@ def generate_response(user_input):
         "bullying"  in user_input
     ):
         return """
-        Muchas veces lo hacen porque tienen problemas en casa, quieren sentirse poderosos o simplemente no piensan en el daño que causan. Pero nada de eso justifica su comportamiento.
+        Muchas veces lo hacen porque tienen problemas en casa, quieren sentirse poderosos o simplemente no piensan en el daño que causan. Pero nada de eso justifica su comportamiento. 🤷
         """
     
     #Pregunta 12
@@ -129,7 +129,7 @@ def generate_response(user_input):
         "nada" in user_input
     ):
         return """
-        Si la escuela no te escucha, habla con tus papás o con alguna autoridad fuera de la escuela. Nadie tiene derecho a ignorar tu situación.
+        Si la escuela no te escucha, habla con tus papás o con alguna autoridad fuera de la escuela. Nadie tiene derecho a ignorar tu situación. 🙅
         """
     
     #Pregunta 15
@@ -148,7 +148,7 @@ def generate_response(user_input):
         "drogas" in user_input
     ):
         return """
-        Por curiosidad, por presión de amigos o para olvidar problemas. Al principio parece que "no pasa nada", pero muchas veces se vuelve un problema difícil de controlar.
+        Por curiosidad, por presión de amigos o para olvidar problemas. Al principio parece que "no pasa nada", pero muchas veces se vuelve un problema difícil de controlar. 😕
         """
     
     #Pregunta 2
@@ -193,7 +193,7 @@ def generate_response(user_input):
         "relajarse" in user_input
     ):
         return """
-        Puede parecer que sí en el momento, pero el efecto es temporal. A largo plazo pueden aumentar la ansiedad y la depresión.
+        Puede parecer que sí en el momento, pero el efecto es temporal. A largo plazo pueden aumentar la ansiedad y la depresión. 🙅
         """
     
     #Pregunta 7
@@ -202,7 +202,7 @@ def generate_response(user_input):
         "familia" in user_input
     ):
         return """
-        Genera peleas, desconfianza y mucho sufrimiento. No solo afecta a quien consume, sino a todos a su alrededor.       
+        Genera peleas, desconfianza y mucho sufrimiento. No solo afecta a quien consume, sino a todos a su alrededor. ☹️    
         """
     
     #Pregunta 8
@@ -211,7 +211,7 @@ def generate_response(user_input):
         "sustancia" in user_input
     ):
         return """
-        Buscar ayuda es el primer paso. Hablar con un profesional puede hacer una gran diferencia. No tienes que enfrentarlo solo.
+        Buscar ayuda es el primer paso. Hablar con un profesional puede hacer una gran diferencia. No tienes que enfrentarlo solo. 😓
         """
     
     #Pregunta 9
@@ -220,7 +220,7 @@ def generate_response(user_input):
         "drogas" in user_input
     ):
         return """
-        Sí, algunas personas venden drogas en línea. Es importante estar alerta y no dejarse engañar.        
+        Sí, algunas personas venden drogas en línea. Es importante estar alerta y no dejarse engañar. ‼️
         """
     
     #Pregunta 10
@@ -247,7 +247,7 @@ def generate_response(user_input):
         "drogas" in user_input
     ):
         return """
-        Sí, a pesar de que su venta es legal, pueden ser igual de adictivos y dañinos que las drogas ilegales.     
+        Sí, a pesar de que su venta es legal, pueden ser igual de adictivos y dañinos que las drogas ilegales. 🍻 🚬 
         """
     
     #Pregunta 13
@@ -256,7 +256,7 @@ def generate_response(user_input):
         "adicción" in user_input
     ):
         return """
-        Escúchalo sin juzgar y sugiérele buscar ayuda. Puedes acompañarlo a un especialista o hablar con un adulto de confianza.       
+        Escúchalo sin juzgar y sugiérele buscar ayuda. Puedes acompañarlo a un especialista o hablar con un adulto de confianza. 🧑‍⚕️
           """
     
     #Pregunta 14
@@ -293,7 +293,7 @@ def generate_response(user_input):
         "papás" in user_input
     ):
         return """
-    Sé que puede dar miedo, pero intenta hablar con ellos en un momento tranquilo. Puedes decirles cómo te sientes y que necesitas su apoyo. Es mejor enfrentar la situación con alguien a tu lado.
+    Sé que puede dar miedo, pero intenta hablar con ellos en un momento tranquilo. Puedes decirles cómo te sientes y que necesitas su apoyo. Es mejor enfrentar la situación con alguien a tu lado. 🫂
     """
 
     #Pregunta 3
@@ -329,7 +329,7 @@ def generate_response(user_input):
         "adolescente" in user_input
     ):
         return """
-        Hay más posibilidades de tener complicaciones en el parto, bebés con bajo peso o problemas de salud. También puede ser un reto emocional y económico.
+        Hay más posibilidades de tener complicaciones en el parto, bebés con bajo peso o problemas de salud. También puede ser un reto emocional y económico. 🤕 💸
         """
     
     #Pregunta 7
@@ -347,7 +347,7 @@ def generate_response(user_input):
         "no planeado" in user_input
     ):
         return """
-        La mejor forma es usando anticonceptivos como el condón, las pastillas o el DIU. También es importante estar bien informado sobre sexualidad.
+        La mejor forma es usando anticonceptivos como el condón, las pastillas o el DIU. También es importante estar bien informado sobre sexualidad. 💊
         """
     
     #Pregunta 9
@@ -356,7 +356,7 @@ def generate_response(user_input):
         "embarazada" in user_input
     ):
         return """
-        No, aunque el riesgo es menor, aún es posible. Siempre usa protección si no quieres quedar embarazada.
+        No, aunque el riesgo es menor, aún es posible. Siempre usa protección si no quieres quedar embarazada. ⚠️
         """
     
     #Pregunta 10
@@ -365,7 +365,7 @@ def generate_response(user_input):
         "anticonceptivo" in user_input
     ):
         return """
-        No es un método seguro. Muchas personas quedan embarazadas porque no se dan cuenta de que antes de la eyaculación ya hay espermatozoides en el líquido preseminal.
+        No es un método seguro. Muchas personas quedan embarazadas porque no se dan cuenta de que antes de la eyaculación ya hay espermatozoides en el líquido preseminal. 🤰
         """
     
     #Pregunta 11
@@ -383,7 +383,7 @@ def generate_response(user_input):
         "bebé" in user_input
     ):
         return """
-        Desde consultas médicas hasta pañales y comida, criar a un bebé puede costar decenas de miles de pesos. Por eso es tan importante planearlo bien antes de tomar la decisión.
+        Desde consultas médicas hasta pañales y comida, criar a un bebé puede costar decenas de miles de pesos. Por eso es tan importante planearlo bien antes de tomar la decisión. 💸
         """
     
     #Pregunta 13
@@ -392,7 +392,7 @@ def generate_response(user_input):
         "bebé" in user_input
     ):
         return """
-        Es una decisión difícil y personal. Habla con alguien de confianza y conoce todas tus opciones antes de tomar una decisión.
+        Es una decisión difícil y personal. Habla con alguien de confianza y conoce todas tus opciones antes de tomar una decisión. ☝️
         """
     
     #Pregunta 14
@@ -401,7 +401,7 @@ def generate_response(user_input):
         "vida" in user_input
     ):
         return """
-        Puede cambiar tu rutina, tu relación con tu familia y tus oportunidades a futuro. Es una gran responsabilidad, por eso es importante tomar decisiones informadas.
+        Puede cambiar tu rutina, tu relación con tu familia y tus oportunidades a futuro. Es una gran responsabilidad, por eso es importante tomar decisiones informadas. 👩‍💻
         """
     
     #Pregunta 15
@@ -416,10 +416,10 @@ def generate_response(user_input):
     #Pregunta 1
     elif "Últimamente" in user_input and(
         "razón" in user_input and
-        "Deprimido" in user_input
+        "deprimido" in user_input
     ):
         return """
-        Sentirse triste a veces es normal, pero si esta sensación dura mucho tiempo y te impide disfrutar tu vida, podrías estar pasando por depresión. No ignores lo que sientes y busca apoyo. 
+        Sentirse triste a veces es normal, pero si esta sensación dura mucho tiempo y te impide disfrutar tu vida, podrías estar pasando por depresión. No ignores lo que sientes y busca apoyo. 🤍
         """
     #Pregunta 2
     elif "miedo" in user_input and(
@@ -427,7 +427,7 @@ def generate_response(user_input):
         "terapia" in user_input
     ):
         return """
-        Puedes explicarles que últimamente no te has sentido bien y que hablar con un profesional podría ayudarte. A veces los papás no lo entienden de inmediato, pero si lo explicas con calma, podrían apoyarte.
+        Puedes explicarles que últimamente no te has sentido bien y que hablar con un profesional podría ayudarte. A veces los papás no lo entienden de inmediato, pero si lo explicas con calma, podrían apoyarte. 👪
         """
     #Pregunta 3
     elif "ansiedad" in user_input and(
@@ -443,7 +443,7 @@ def generate_response(user_input):
         "mejorar" in user_input
     ):
         return """
-        Evita el celular antes de dormir, trata de relajarte con música suave o respiraciones profundas, y mantén una rutina de sueño regular.
+        Evita el celular antes de dormir, trata de relajarte con música suave o respiraciones profundas, y mantén una rutina de sueño regular. 😴
         """
     #Pregunta 5
     elif "ayudo" in user_input and(
@@ -451,7 +451,7 @@ def generate_response(user_input):
         "deprimido" in user_input
     ):
         return """
-        Escúchalo sin juzgar, hazle saber que estás ahí para él y anímalo a buscar ayuda si lo necesita. A veces, solo estar presente ya es un gran apoyo.
+        Escúchalo sin juzgar, hazle saber que estás ahí para él y anímalo a buscar ayuda si lo necesita. A veces, solo estar presente ya es un gran apoyo. 😄
         """
     #Pregunta 6 
     elif "Siento" in user_input and(
@@ -459,7 +459,7 @@ def generate_response(user_input):
         "entiende" in user_input
     ):
         return """
-        Es normal sentirse así a veces, pero no estás solo. Intenta hablar con alguien que realmente te escuche o busca espacios donde puedas expresarte sin miedo. 
+        Es normal sentirse así a veces, pero no estás solo. Intenta hablar con alguien que realmente te escuche o busca espacios donde puedas expresarte sin miedo. ❤️‍🩹
         """
     #Pregunta 7
     elif "controlar" in user_input and(
@@ -467,7 +467,7 @@ def generate_response(user_input):
         "negativos" in user_input
     ):
         return """
-        Cuestiona esos pensamientos: ¿Realmente son ciertos? A veces nuestra mente exagera las cosas. También ayuda distraerte con actividades que te gusten.
+        Cuestiona esos pensamientos: ¿Realmente son ciertos? A veces nuestra mente exagera las cosas. También ayuda distraerte con actividades que te gusten. 🏃
         """
     #Pregunta 8
     elif "sentirse" in user_input and(
@@ -483,7 +483,7 @@ def generate_response(user_input):
         "conmigo" in user_input
     ):
         return """
-        Recuerda que en redes, la mayoría solo muestra su mejor versión. Deja de seguir cuentas que te hacen sentir mal y rodéate de contenido positivo.
+        Recuerda que en redes, la mayoría solo muestra su mejor versión. Deja de seguir cuentas que te hacen sentir mal y rodéate de contenido positivo. 🙌
         """
     #Pregunta 10
     elif "comparo" in user_input and(
@@ -491,7 +491,7 @@ def generate_response(user_input):
         "autiestima" in user_input
     ):
         return """
-        Cada persona tiene su propio camino. En lugar de compararte, concéntrate en tus propias metas y en lo que te hace feliz. 
+        Cada persona tiene su propio camino. En lugar de compararte, concéntrate en tus propias metas y en lo que te hace feliz. ❤️‍🩹
         """
     #Pregunta 11 
     elif "manejar" in user_input and(
@@ -499,7 +499,7 @@ def generate_response(user_input):
         "escolar" in user_input
     ):
         return """
-        Organiza tu tiempo, haz pausas y recuerda que no tienes que hacerlo todo perfecto. También ayuda hacer ejercicio o actividades que te relajen.
+        Organiza tu tiempo, haz pausas y recuerda que no tienes que hacerlo todo perfecto. También ayuda hacer ejercicio o actividades que te relajen. 🤸‍♂️
         """
     #Preguta 12 
     elif "llorar" in user_input and(
@@ -507,7 +507,7 @@ def generate_response(user_input):
         "malo" in user_input
     ):
         return """
-        No, llorar es una forma natural de liberar emociones. Si sientes que algo te afecta demasiado, hablarlo con alguien puede ayudarte a sentirte mejor.        
+        No, llorar es una forma natural de liberar emociones. Si sientes que algo te afecta demasiado, hablarlo con alguien puede ayudarte a sentirte mejor. 👥      
         """
     #Pregunta 13
     elif "buscar" in user_input and(
@@ -515,7 +515,7 @@ def generate_response(user_input):
         "profesional" in user_input
     ):
         return """
-        Si sientes que lo que estás pasando afecta tu vida diaria, buscar ayuda es una gran decisión. No tienes que esperar a que la situación sea grave para hacerlo.
+        Si sientes que lo que estás pasando afecta tu vida diaria, buscar ayuda es una gran decisión. No tienes que esperar a que la situación sea grave para hacerlo. 
         """
     #Pregunta 14 
     elif "sentirme" in user_input and(
@@ -523,7 +523,7 @@ def generate_response(user_input):
         "conmigo" in user_input
     ):
         return """
-        Empieza hablándote con más amabilidad. Todos tenemos cosas buenas y áreas de mejora. Rodéate de personas que te valoren y haz cosas que te hagan sentir bien.
+        Empieza hablándote con más amabilidad. Todos tenemos cosas buenas y áreas de mejora. Rodéate de personas que te valoren y haz cosas que te hagan sentir bien. 🥰
         """
     #Pregunta 15
     elif "pensamientos" in user_input and(
@@ -531,6 +531,18 @@ def generate_response(user_input):
         "daño" in user_input
     ):
         return """
-        No ignores esos pensamientos. Habla con alguien de confianza lo antes posible. Hay personas que te quieren y quieren ayudarte a salir adelante. No estás solo       
+        No ignores esos pensamientos. Habla con alguien de confianza lo antes posible. Hay personas que te quieren y quieren ayudarte a salir adelante. No estás solo 🫂      
+        """
+    
+    elif "gracias" in user_input and(
+        "por" in user_input and
+        "ayuda"
+    ):
+        return """
+        No hay de que agradecer para mi es un gusto ayudarte, espero todo mejore pronto y recuerda que siempre estare aqui cuando necesites ayuda ☺️
+        """
+    else:
+        return """" 
+        Por el momento no tengo informacion sobre lo que me consultas, pero estamos trabjando para rendir un mejor desempeño espero poder ayudarde pronto ⚙️
         """
     
