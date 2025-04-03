@@ -543,6 +543,6 @@ def generate_response(user_input):
         """
     else:
         return """
-        Por el momento no tengo informacion sobre lo que me consultas, pero estamos trabjando para rendir un mejor desempeño espero poder ayudarde pronto ⚙️
+        Por el momento no tengo información sobre lo que me consultas, pero estamos trabajando para rendir un mejor desempeño espero poder ayudarde pronto ⚙️
         """
     
