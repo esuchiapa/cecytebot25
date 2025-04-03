@@ -471,7 +471,7 @@ def generate_response(user_input):
         """
     #Pregunta 8
     elif "sentirse" in user_input and(
-        "ancioso" in user_input and
+        "ansioso" in user_input and
         "tiempo" in user_input
     ):
         return """
@@ -542,7 +542,7 @@ def generate_response(user_input):
         No hay de que agradecer para mi es un gusto ayudarte, espero todo mejore pronto y recuerda que siempre estare aqui cuando necesites ayuda ☺️
         """
     else:
-        return """" 
+        return """
         Por el momento no tengo informacion sobre lo que me consultas, pero estamos trabjando para rendir un mejor desempeño espero poder ayudarde pronto ⚙️
         """
     
