@@ -419,7 +419,7 @@ def generate_response(user_input):
         "deprimido" in user_input
     ):
         return """
-        Sentirse triste a veces es normal, pero si esta sensación dura mucho tiempo y te impide disfrutar tu vida, podrías estar pasando por depresión. No ignores lo que sientes y busca apoyo. 🤍
+        Sentirse triste a veces es normal, pero si esta sensación dura mucho tiempo y te impide disfrutar tu vida, podrías estar pasando por depresión. No ignores lo que sientes y busca apoyo. 🤍 
         """
     #Pregunta 2
     elif "miedo" in user_input and(
