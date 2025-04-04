@@ -475,7 +475,7 @@ def generate_response(user_input):
         "tiempo" in user_input
     ):
         return """
-        No es raro, pero si la ansiedad interfiere con tu vida, es importante buscar formas de manejarla o hablar con alguien que pueda ayudarte.
+        No es raro, pero si la ansiedad interfiere con tu vida, es importante buscar formas de manejarla o hablar con alguien que pueda ayudarte. 🫂
         """
     #Pregunta 9
     elif "sociales" in user_input and(
@@ -488,10 +488,10 @@ def generate_response(user_input):
     #Pregunta 10
     elif "comparo" in user_input and(
         "inferior" in user_input and
-        "autiestima" in user_input
+        "autoestima" in user_input
     ):
         return """
-        Cada persona tiene su propio camino. En lugar de compararte, concéntrate en tus propias metas y en lo que te hace feliz. ❤️‍🩹
+        Cada persona tiene su propio camino. En lugar de compararte, concéntrate en tus propias metas y en lo que te hace feliz. 😉
         """
     #Pregunta 11 
     elif "manejar" in user_input and(

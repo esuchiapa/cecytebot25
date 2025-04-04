@@ -5,7 +5,7 @@ import random
 
 
 async def start(update: Update, context: CallbackContext):
-    await update.message.reply_text('¡Hola! Soy Cecy, ¿Cómo te puedo ayudar hoy?')
+    await update.message.reply_text('¡Hola! Soy Cecy, ¿Cómo te puedo ayudar hoy?, recuerda que puedes preguntar por temas sobre bullying, acoso, etc')
 
 async def help_command(update: Update, context: CallbackContext):
     await update.message.reply_text('Puedes hablar conmigo sobre bullying, embarazos adolescentes, drogas o tu salud mental ¿tienes alguna duda al respecto?')
