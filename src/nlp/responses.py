@@ -414,12 +414,12 @@ def generate_response(user_input):
         """
     #SALUD MENTAL EN ADOLESCENTES
     #Pregunta 1
-    elif "Últimamente" in user_input and(
-        "razón" in user_input and
+    elif "Últimamente" in user_input and (
+        "razón" in user_inputa and
         "deprimido" in user_input
     ):
         return """
-        Sentirse triste a veces es normal, pero si esta sensación dura mucho tiempo y te impide disfrutar tu vida, podrías estar pasando por depresión. No ignores lo que sientes y busca apoyo. 🤍 
+        Sentirse triste a veces es normal, pero si esta sensación dura mucho tiempo y te impide disfrutar tu vida, podrías estar padando por depresión, No igoneres lo que sientes y busca apoyo. 🤍
         """
     #Pregunta 2
     elif "miedo" in user_input and(
@@ -459,7 +459,7 @@ def generate_response(user_input):
         "entiende" in user_input
     ):
         return """
-        Es normal sentirse así a veces, pero no estás solo. Intenta hablar con alguien que realmente te escuche o busca espacios donde puedas expresarte sin miedo. ❤️‍🩹
+        Es normal sentirse así a veces, pero no estás solo, Intenta hablar con alguien que realmente te escuche o busca espacios donde puedas expresarte sin miedo. ❤️‍🩹
         """
     #Pregunta 7
     elif "controlar" in user_input and(
@@ -534,6 +534,24 @@ def generate_response(user_input):
         No ignores esos pensamientos. Habla con alguien de confianza lo antes posible. Hay personas que te quieren y quieren ayudarte a salir adelante. No estás solo 🫂      
         """
     
+#Pregunta 1
+    elif "Cecy" in user_input and (
+        "ayudar" in user_input and
+        "jóvenes" in user_input 
+    ):
+        return """
+        ¡Hola! Soy Cecy, tu asistente digital en Cecytem. Estoy aquí para escucharte, orientarte, y brindarte información sobre temas importantes como adicciones, embarazo precoz, bullying cyberbullying y salud mental. Mi misión es ayudarte a tomar decisiones informadas y a encontrar apoyo cuando lo necesites. No estas solo, la comunidad de Cecytem y yo estamos aqui para acompañarte. 👥
+        """
+
+
+#Pregunta 2
+    elif "importante" in user_input and (
+        "hablar" in user_input and
+        "temas" in user_input
+    ):
+        return """
+        Porque son partes de la vida de muchos jóvenes y hablar de ellos puede marcar la diferencia. A veces, el bullying, las adicciones o los problemas de salud mental parecen díficiles de enfrentar , pero con información y apoyo, todo se puede superar. Estoy aquí para que no te sientas solo, para escucharte y orientarte.En Cecytem, tu bienestar es o mas importante. 😉
+        """  
     elif "gracias" in user_input and(
         "por" in user_input and
         "ayuda"

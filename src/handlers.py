@@ -21,3 +21,4 @@ async def handle_message(update: Update, context: CallbackContext):
     else:
         response = generate_response(text)
         await update.message.reply_text(response)
+ 
